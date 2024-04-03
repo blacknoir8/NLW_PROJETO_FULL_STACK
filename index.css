@@ -1,0 +1,67 @@
+body, table,input,button{
+    font: 300  16px/140% 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #121214;
+    color:#ffff;
+}
+
+table{
+    padding: 32px;
+    border: 6px solid #fcf8f81a;
+    margin: 32px;
+}
+
+table thead{
+font-size: 20px;
+line-height: 18px;
+color: white;
+
+}
+
+thead th
+tbody td{
+ padding: 16px 100px;
+ line-height: 100px;
+
+}
+
+tbody td{
+    
+    font-size: 13px;
+    line-height: 15px;
+    color: #c4c4c4;
+     
+
+}
+
+tbody td strong{
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    
+}
+
+tbody td small{
+   
+    font-size: 12px;
+    line-height: 16px;
+}
+
+tbody td button{
+    all:unset ;
+
+    
+}
+
+
+tbody td button:hover{
+    text-decoration:underline ;   
+}
+
+section{
+    font-size: 12px;
+    line-height: 16px;
+}
